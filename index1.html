@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>ng2 <3 jspm</title>
+
+  </head>
+  <body>
+    <one></one>
+
+
+
+
+    <!-- START: brute-force -->
+    <script src="jspm_packages/system.js"></script>
+    <script src="jspm.config.js"></script>
+    <script src="app.js"></script>
+    <script>
+      System.import('reflect-metadata')
+        .then(function(){System.import('app')});
+    </script>
+    <!-- END: brute-force -->
+
+  </body>
+</html>

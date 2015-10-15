@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>ng2 <3 jspm</title>
+
+  </head>
+  <body>
+    <one></one>
+
+
+
+
+    <!-- START: bundled-scenario -->
+    <script src="jspm_packages/system.js"></script>
+    <script src="jspm.config.js"></script>
+    <script src="dist/main.js"></script>
+    <script>
+      System.import('reflect-metadata')
+        .then(function(){System.import('app')});
+    </script>
+    <!-- END: bundled-scenario -->
+
+  </body>
+</html>
