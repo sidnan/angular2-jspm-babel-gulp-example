@@ -25,7 +25,11 @@ jspm install
 
 ## Notes
 ### Gulp tasks
-1. Following command is executed to create SFX bundle ```gulp jspm:bundle-sfx```
+1. Following command is executed to create SFX bundle ```
+
+gulp jspm:bundle-sfx
+
+```
 2. Following command is executed to create normal bundle ```gulp jspm:bundle```
 
 
