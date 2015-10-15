@@ -16,35 +16,17 @@ jspm install
 
 ## Steps to run
 
-1.  .
-```
-gulp
-```
-2. To view the simple brute force approach, visit the following link. View the developer tool, there is over 200 request made. So this is not production friendly.
-```
-http://127.0.0.1:8080/index1.html
-```
-3. To view the bundled up approach, visit the following link. View the developer tool, the number of requests are reduced drastically. So this is production friendly.
-```
-http://127.0.0.1:8080/index2.html
-```
-4. To view the SFX (Self Executable Bundle) approach, visit the following link. View the developer tool, the number of requests are reduced drastically. So this is production friendly.
-```
-http://127.0.0.1:8080/index2.html
-```
+1. ```gulp```
+2. To view the simple brute force approach, visit the following link. View the developer tool, there is over 200 request made. So this is not production friendly. ```http://127.0.0.1:8080/index1.html```
+3. To view the bundled up approach, visit the following link. View the developer tool, the number of requests are reduced drastically. So this is production friendly ```http://127.0.0.1:8080/index2.html```
+4. To view the SFX (Self Executable Bundle) approach, visit the following link. View the developer tool, the number of requests are reduced drastically. So this is production friendly. ```http://127.0.0.1:8080/index2.html```
 
 
 
 ## Notes
 ### Gulp tasks
-1. Following command is executed to create SFX bundle
-```
-gulp jspm:bundle-sfx
-```
-2. Following command is executed to create normal bundle
-```
-gulp jspm:bundle
-```
+1. Following command is executed to create SFX bundle ```gulp jspm:bundle-sfx```
+2. Following command is executed to create normal bundle ```gulp jspm:bundle```
 
 
 ### Angular 2
