@@ -23,6 +23,15 @@ jspm install
 
 
 
+## Steps to create similar new project
+1. npm init
+2. npm install --save-dev jspm live-server
+3. jspm init (note: select babel during the setup, name config file as jspm.config.js)
+4. jspm install npm:angular2@2.0.0-alpha.40 npm:@reactivex/rxjs@^5.0.0-alpha.2 npm:es6-shim@^0.33.6 npm:reflect-metadata@^0.1.2
+5. start creating javascript and HTML files for your application project
+
+
+
 ## Notes
 ### Gulp tasks
 1. Following command is executed to create SFX bundle ```gulp jspm:bundle-sfx```
